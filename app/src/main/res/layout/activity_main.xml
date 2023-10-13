@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/fetch_btn"
-        app:layout_constraintGuide_percent="0.70"
+        app:layout_constraintGuide_percent="0.6981758"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
