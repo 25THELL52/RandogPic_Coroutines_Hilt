@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RanDogPicCoroutines</string>
+    <string name="error_default_text">ERROR</string>
+    <string name="error_retry_default_text">Retry\n</string>
+    <string name="loading_default_text">Loading\n</string>
+    <string name="Download">Download</string>
+    <string name="Fetch">Fetch</string>
+
+</resources>
