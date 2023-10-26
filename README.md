@@ -11,5 +11,4 @@
 ### Multithreading: Coroutines
 ### Dependency injection : Dagger Hilt
 ### Testing : Unit testing: JUnit 4, Mockito | UI testing: Espresso
-### others :viewBinding, RecyclerView
-
+### viewBinding
