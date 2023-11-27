@@ -61,6 +61,7 @@ open class RandomDogPicViewModel @Inject constructor(private val repository: Ran
 
  */
             val response =  repository.getDog()
+
             if (response.isSuccessful) {
                 val dog = response.body()
                 if (dog != null) onSuccess(dog)

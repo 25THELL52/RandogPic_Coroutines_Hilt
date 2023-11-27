@@ -1,16 +1,15 @@
 package com.example.randogpiccoroutines
 
+import android.net.ConnectivityManager
 import android.os.Bundle
-
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.randogpiccoroutines.databinding.ActivityMainBinding
-import com.example.randogpiccoroutines.data.repository.RandomDogPicRepository
 import com.example.randogpiccoroutines.data.repository.RandomDogPicRepositoryImpl
+import com.example.randogpiccoroutines.databinding.ActivityMainBinding
 import com.example.randogpiccoroutines.model.Dog
 import com.example.randogpiccoroutines.util.ImageLoaderImpl
 import com.example.randogpiccoroutines.viewModel.RandomDogPicViewModel
@@ -44,6 +43,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.fetchBtn.setOnClickListener {
+
             viewModel.fetch()
         }
         viewModel.initialize()
@@ -130,6 +130,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // 1
+
 
 
 }
