@@ -18,4 +18,6 @@
 
 #
 
-<image src="https://github.com/25THELL52/RanDogPic/assets/79938851/c30b4cb3-7453-42ad-ba69-61c9a44cb1c7" width="30%" height="30%">
+<image src="https://github.com/25THELL52/RandogPic_Coroutines_Hilt/assets/79938851/99f8d13b-5ac7-433c-b4ed-a500a862f8c4" width="30%" height="30%">        
+
+  <image src="https://github.com/25THELL52/RandogPic_Coroutines_Hilt/assets/79938851/74fc11d1-2e12-483d-8e5e-8698c434715a" width="30%" height="30%">
